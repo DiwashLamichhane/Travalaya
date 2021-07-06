@@ -2,70 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>Travalaya</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
-<div class="header">
 
-     <nav class="navbar">
-         <div class="logo"><img src="./images/Travalayalogo.png"></div>
-         <ul class="links">
-            <li class="link bucket"><img src="./images/bucket.png"></li>
-             <li class="link"><a href="#" class="btn btn-primary">LOG IN</a></li>
-             <li class="link"><a href="#" class="btn btn-secondary">SIGN UP</a></li>
-         </ul>
-     </nav>
 
-     <div class="header-content">
-         <h1>MAKE YOUR TRAVEL BOOKING FUN</h1>
-         <p>thousands of people trust travalaya</p>
-        
-         <div class="search">
-         <input type="text" class="search-box" placeholder="search places ...">
-         <img src="./images/search.png">
-         </div>
-     </div>
+<!-- Top section  -->
+<section class="cover">
+    <div class="header">
+        <div class="navbar">
+            <div><img src="./images/Travalayalogo.png"></div>
+            <ul class="nav-items">
+                <li class="nav-item bucket">
+                    <img src="./images/bucket.png">
+                    <div class="counter">33</div>
+                </li>
+                <li class="nav-item btn btn-primary">Login</li>
+                <li class="nav-item btn btn-secondary">Sign Up</li>
+                
+            </ul>
+        </div>
+
+        <!-- header content -->
+        <div class="content">
+            <div class="banner">
+                <h1 class="big-text">Lorem ipsum dolor sit amet.</h1>
+                <h3 class="small-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            </div>
+
+            <!-- search bar -->
+            <form class="search-bar">
+                <input type="text" class="search" placeholder="Search For Destinations...">
+                <button type="submit" class="search-button"><img src="./images/search.png"></button>
+            </form> 
+
+        </div>
+    </div>
+</section>
+
+<!-- popular destinations -->
+<div class="container">
+
+    <div class="trendings">
+        <h1>Trending Now</h1>
+        <div class="destinations">
+            <div class="destination"> 
+            <img src="./images/pokhara.jpg">       
+            </div>
+            <div class="destination"> 
+            <img src="./images/everest.jpg">       
+            </div>
+            <div class="destination"> 
+            <img src="./images/lumbini.jpg">       
+            </div>
+            <div class="destination"> 
+            <img src="./images/pokhara.jpg">       
+            </div>
+        </div>
+    </div>
+
+    <div class="featured">
+        <h1>Featured</h1>
+        <div class="destinations">
+            <div class="destination"> 
+            <img src="./images/pokhara.jpg">       
+            </div>
+            <div class="destination"> 
+            <img src="./images/pokhara.jpg">       
+            </div>
+            <div class="destination"> 
+            <img src="./images/pokhara.jpg">       
+            </div>
+            <div class="destination"> 
+            <img src="./images/pokhara.jpg">       
+            </div>
+        </div>
+    </div>
 
 </div>
 
-<section class="places">
-    <div class="place">
-        <img class= "hero" src="./images/pokhara.jpg">
-        <div class="top-up">
-        <h2>Pokhara</h2>
-        <p>Nepal</p>
-        <button class="btn-lg btn-primary">Add to bucket</button>
-        </div>
-
-    </div>
-
-    <div class="place">
-        <img class= "hero" src="./images/lumbini.jpg">
-        <div class="top-up">
-            <h2>Lumbini
-            </h2>
-            <p>Nepal</p>
-            <button class="btn-lg btn-primary">Add to bucket</button>
-            </div>
-         
-            
-    
-    </div>
-
-    <div class="place">
-        <img class= "hero" src="./images/everest.jpg">
-        <div class="top-up">
-            <h2>Mt. Everest</h2>
-            <p>Nepal</p>
-            <button class="btn-lg btn-primary">Add to bucket</button>
-            </div>
-    
-    </div>
-
-
-</section>
 
 </body>
 </html>

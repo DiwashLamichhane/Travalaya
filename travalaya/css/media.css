@@ -1,0 +1,39 @@
+@media (max-width:700px) {
+    
+.content{
+    max-width: 400px;
+}
+
+.search-bar{
+    width: 400px;
+}
+
+.big-text{
+    font-size: 30px;
+}
+
+.small-text{
+    font-size: 16px;
+}
+
+}
+
+@media (max-width:500px) {
+    
+    .content{
+        max-width: 350px;
+    }
+    
+    .search-bar{
+        width: 350px;
+    }
+    
+    .big-text{
+        font-size: 25px;
+    }
+    
+    .small-text{
+        font-size: 14px;
+    }
+    
+    }
