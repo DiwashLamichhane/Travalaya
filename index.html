@@ -21,6 +21,16 @@
             <ul class="nav-items">
                 <li class="nav-item bucket">
                     <img src="./images/bucket.png">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.86 156.64">
+                        <defs>
+                            <style>.cls-1{fill:none;stroke:#231f20;stroke-miterlimit:10;}</style>
+                        </defs>
+                        <path class="cls-1" d="M291.48,381.83l0,.17c-.34,1.63-6.16,2.95-13.27,2.95s-12.93-1.32-13.27-2.95l0-.17c0-1.73,5.95-3.12,13.3-3.12S291.48,380.1,291.48,381.83Z" transform="translate(-251.11 -254.28)"/>
+                        <line class="cls-1" x1="2.92" y1="25.65" x2="2.91" y2="25.6"/>
+                        <path class="cls-1" d="M291.45,382l-2.39,26.15c0,1.25-4.88,2.26-10.88,2.26s-10.88-1-10.88-2.26v-.06L264.91,382c.34,1.63,6.15,2.95,13.27,2.95S291.11,383.63,291.45,382Z" transform="translate(-251.11 -254.28)"/>
+                        <line class="cls-1" x1="0.52" y1="0.22" x2="0.5" y2="0.06"/>
+                        <line class="cls-1" x1="27.09" y1="0.15" x2="27.07" y2="0.31"/>
+                    </svg>
                     <div class="counter">11</div>
                 </li>
                 <li class="nav-item">
@@ -43,7 +53,6 @@
             <form class="search-bar">
                 <input type="text" class="search" placeholder="Search For Destinations...">
                 <button type="submit" class="search-button">
-                    <!-- <img src="./images/search.png"> -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="25">
                         <path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/>
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"/>
@@ -60,7 +69,7 @@
 
 <!-- Trending destinations -->
 <div class="container">
-    <div class="categories-list">
+    <main class="categories-list">
 
         <div class="categories-heading">
             <h1 class="title">Categories</h1>
@@ -95,48 +104,342 @@
                 <img class="category-image" src="./images/rural.jpg" alt="Rural">
                 <h5 class="category-name">Rural</h5>
             </div>
-  
         </div>
+    </main>
 
-    </div>
-    
+    <main class="trending-wrapper">
+        <h3 class="title">Trending Now</h3>
+        <div class="destination-wrapper">
 
-    <div class="trendings">
-        <h1 class="title">Trending Now</h1>
-        <div class="destinations">
-            <div class="destination"> 
-            <img src="./images/pokhara.jpg">       
-            </div>
-            <div class="destination"> 
-            <img src="./images/everest.jpg">       
-            </div>
-            <div class="destination"> 
-            <img src="./images/lumbini.jpg">       
-            </div>
-            <div class="destination"> 
-            <img src="./images/pokhara.jpg">       
-            </div>
-        </div>
-    </div>
+            <figure class="destination-card">
+                <img class="destination-image" src="./images/pokhara.jpg" alt="Pokhara">
+                <figcaption class="destination-details">
+                    <h4 class="destination-name">Destination Name</h4>
+                    <p class="destination-location">Lakeside, Pokhara, Nepal</p>
+                    <div class="ratings">
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="half-filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                                <path d="M256 48v316L118 464l54-160-140-96h172l52-160z"/>
+                            </svg>
+                        </span>
+                        <span class="outline-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                            </svg>
+                        </span>
+                        <p class="ratings-number">(1000 Reviews)</p>
+                    </div>
+                    <span class="badge">Category</span>
+                </figcaption>
+            </figure>
+            <!-- ends -->
 
-    <div class="featured">
-        <h1 class="title">Featured</h1>
-        <div class="destinations">
-            <div class="destination"> 
-            <img src="./images/pokhara.jpg">       
-            </div>
-            <div class="destination"> 
-            <img src="./images/pokhara.jpg">       
-            </div>
-            <div class="destination"> 
-            <img src="./images/pokhara.jpg">       
-            </div>
-            <div class="destination"> 
-            <img src="./images/pokhara.jpg">       
-            </div>
-        </div>
-    </div>
-</div>
+            <figure class="destination-card">
+                <img class="destination-image" src="./images/pokhara.jpg" alt="Pokhara">
+                <figcaption class="destination-details">
+                    <h4 class="destination-name">Destination Name</h4>
+                    <p class="destination-location">Lakeside, Pokhara, Nepal</p>
+                    <div class="ratings">
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="half-filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                                <path d="M256 48v316L118 464l54-160-140-96h172l52-160z"/>
+                            </svg>
+                        </span>
+                        <span class="outline-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                            </svg>
+                        </span>
+                        <p class="ratings-number">(1000 Reviews)</p>
+                    </div>
+                    <span class="badge">Category</span>
+                </figcaption>
+            </figure>
+            <!-- ends -->
+
+            <figure class="destination-card">
+                <img class="destination-image" src="./images/pokhara.jpg" alt="Pokhara">
+                <figcaption class="destination-details">
+                    <h4 class="destination-name">Destination Name</h4>
+                    <p class="destination-location">Lakeside, Pokhara, Nepal</p>
+                    <div class="ratings">
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="half-filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                                <path d="M256 48v316L118 464l54-160-140-96h172l52-160z"/>
+                            </svg>
+                        </span>
+                        <span class="outline-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                            </svg>
+                        </span>
+                        <p class="ratings-number">(1000 Reviews)</p>
+                    </div>
+                    <span class="badge">Category</span>
+                </figcaption>
+            </figure>
+            <!-- ends -->
+
+            <figure class="destination-card">
+                <img class="destination-image" src="./images/pokhara.jpg" alt="Pokhara">
+                <figcaption class="destination-details">
+                    <h4 class="destination-name">Destination Name</h4>
+                    <p class="destination-location">Lakeside, Pokhara, Nepal</p>
+                    <div class="ratings">
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="half-filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                                <path d="M256 48v316L118 464l54-160-140-96h172l52-160z"/>
+                            </svg>
+                        </span>
+                        <span class="outline-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                            </svg>
+                        </span>
+                        <p class="ratings-number">(1000 Reviews)</p>
+                    </div>
+                    <span class="badge">Category</span>
+                </figcaption>
+            </figure>
+            <!-- ends -->
+
+        </div>  
+    </main>
+
+
+    <main class="trending-wrapper">
+        <h3 class="title">Featured</h3>
+        <div class="destination-wrapper">
+
+            <figure class="destination-card">
+                <img class="destination-image" src="./images/pokhara.jpg" alt="Pokhara">
+                <figcaption class="destination-details">
+                    <h4 class="destination-name">Destination Name</h4>
+                    <p class="destination-location">Lakeside, Pokhara, Nepal</p>
+                    <div class="ratings">
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="half-filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                                <path d="M256 48v316L118 464l54-160-140-96h172l52-160z"/>
+                            </svg>
+                        </span>
+                        <span class="outline-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                            </svg>
+                        </span>
+                        <p class="ratings-number">(1000 Reviews)</p>
+                    </div>
+                    <span class="badge">Category</span>
+                </figcaption>
+            </figure>
+            <!-- ends -->
+
+            <figure class="destination-card">
+                <img class="destination-image" src="./images/pokhara.jpg" alt="Pokhara">
+                <figcaption class="destination-details">
+                    <h4 class="destination-name">Destination Name</h4>
+                    <p class="destination-location">Lakeside, Pokhara, Nepal</p>
+                    <div class="ratings">
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="half-filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                                <path d="M256 48v316L118 464l54-160-140-96h172l52-160z"/>
+                            </svg>
+                        </span>
+                        <span class="outline-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                            </svg>
+                        </span>
+                        <p class="ratings-number">(1000 Reviews)</p>
+                    </div>
+                    <span class="badge">Category</span>
+                </figcaption>
+            </figure>
+            <!-- ends -->
+
+            <figure class="destination-card">
+                <img class="destination-image" src="./images/pokhara.jpg" alt="Pokhara">
+                <figcaption class="destination-details">
+                    <h4 class="destination-name">Destination Name</h4>
+                    <p class="destination-location">Lakeside, Pokhara, Nepal</p>
+                    <div class="ratings">
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="half-filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                                <path d="M256 48v316L118 464l54-160-140-96h172l52-160z"/>
+                            </svg>
+                        </span>
+                        <span class="outline-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                            </svg>
+                        </span>
+                        <p class="ratings-number">(1000 Reviews)</p>
+                    </div>
+                    <span class="badge">Category</span>
+                </figcaption>
+            </figure>
+            <!-- ends -->
+
+            <figure class="destination-card">
+                <img class="destination-image" src="./images/pokhara.jpg" alt="Pokhara">
+                <figcaption class="destination-details">
+                    <h4 class="destination-name">Destination Name</h4>
+                    <p class="destination-location">Lakeside, Pokhara, Nepal</p>
+                    <div class="ratings">
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"/>
+                            </svg>
+                        </span>
+                        <span class="half-filled-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20" fill="#fd4949">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                                <path d="M256 48v316L118 464l54-160-140-96h172l52-160z"/>
+                            </svg>
+                        </span>
+                        <span class="outline-star">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512" width="20">
+                                <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z" fill="none" stroke="#fd4949" stroke-linejoin="round" stroke-width="32"/>
+                            </svg>
+                        </span>
+                        <p class="ratings-number">(1000 Reviews)</p>
+                    </div>
+                    <span class="badge">Category</span>
+                </figcaption>
+            </figure>
+            <!-- ends -->
+
+        </div>  
+    </main>
+
+
+
+
+
+
+
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
